@@ -18,12 +18,12 @@ const LeftSide = () => {
             <SlSocialLinkedin />
           </span>
         </a>
-        <a href={`mailto:${socialLinks.Email}`} target="_blank">
+        <a href={`mailto:${socialLinks.Email}`}>
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <MdOutlineEmail />
           </span>
         </a>
-        <a href={`tel:${socialLinks.Phone}`} target="_blank">
+        <a href={`tel:${socialLinks.Phone}`}>
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <MdSmartphone />
           </span>
