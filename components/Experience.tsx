@@ -1,4 +1,5 @@
 import SectionTitle from "@/components/SectionTitle";
+import ExperienceG3NR8 from "@/components/work_experience/ExperienceG3NR8";
 
 const Experience = () => {
   return (
@@ -22,6 +23,8 @@ const Experience = () => {
             Leesman
           </li>
         </ul>
+        {/* WORK EXPERIENCE */}
+        <ExperienceG3NR8 />
       </div>
     </section>
   );
