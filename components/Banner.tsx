@@ -45,6 +45,16 @@ const Banner = () => {
           </span>
         </a>
       </motion.p>
+      <a href={socialLinks.Github} target="_blank">
+        <motion.button
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.9 }}
+          className="w-52 h-14 text-sm font-inter border border-textGreen rounded-md text-textGreen tacking-wide hover:bg-hoverColor duration-300"
+        >
+          Check out my projects!
+        </motion.button>
+      </a>
     </section>
   );
 };
