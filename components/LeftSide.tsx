@@ -5,8 +5,9 @@ import { MdOutlineEmail, MdSmartphone } from "react-icons/md";
 import { socialLinks } from "@/utils/SocialLinks";
 const LeftSide = () => {
   return (
-    <div className="w-full h-full flex flex-col justify-end gap-4 text-textLight">
+    <div className="w-full h-full flex flex-col items-center justify-end gap-4 text-textLight">
       <div className="flex flex-col gap-4">
+        {/*implement all links*/}
         <a href={socialLinks.Github} target="_blank">
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <TbBrandGithub />
@@ -38,6 +39,8 @@ const LeftSide = () => {
           </span>
         </a>
       </div>
+      {/* implement Line */}
+      <div className="h-32 w-[2px] bg-textDark"></div>
     </div>
   );
 };
