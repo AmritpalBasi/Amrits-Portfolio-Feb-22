@@ -1,8 +1,12 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import ArchiveCard from "@/components/ArchiveCard";
 import { portfolioText } from "@/utils/PortfolioText";
+import { motion } from "framer-motion";
 
 const Archive = () => {
+  const [showMore, setShowMore] = useState(false);
+
   return (
     <div className="max-w-contentContainer mx-auto px-4 py-24">
       {/* Title Div */}
@@ -18,6 +22,42 @@ const Archive = () => {
           listItems={portfolioText.archiveTensorFlow.skills}
           link={portfolioText.archiveTensorFlow.link}
         />
+        {showMore && (
+          <div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.1 }}
+            >
+              <ArchiveCard
+                title="Show More"
+                description="Show More Description"
+                listItems={["1", "2", "3", "4"]}
+                link={"google.com"}
+              />
+            </motion.div>
+          </div>
+        )}
+      </div>
+      {/*  BUTTON DIV  */}
+      <div className="mt-12 flex items-center justify-center">
+        {!showMore ? (
+          <button
+            className="border border-textGreen w-36 h-12 rounded-md text-textGreen text-[13px]
+                     hover:bg-hoverColor duration-300"
+            onClick={() => setShowMore(true)}
+          >
+            Show More
+          </button>
+        ) : (
+          <button
+            className="border border-textGreen w-36 h-12 rounded-md text-textGreen text-[13px]
+                     hover:bg-hoverColor duration-300"
+            onClick={() => setShowMore(false)}
+          >
+            Show Less
+          </button>
+        )}
       </div>
     </div>
   );
