@@ -9,10 +9,15 @@ import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Archive from "@/components/Archive";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="w-full h-screen font-montserrat bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll">
+    <main
+      className="w-full h-screen font-montserrat bg-bodyColor text-textLight
+                 overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20
+                 scrollbar-thumb-textDark/60"
+    >
       <Navbar />
       <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
         {/* left hand side */}
@@ -44,6 +49,7 @@ export default function Home() {
           {/*  CONTACT */}
           <Contact />
           {/*  FOOTER */}
+          <Footer />
         </div>
         {/* right hand side of screen */}
         <motion.div
