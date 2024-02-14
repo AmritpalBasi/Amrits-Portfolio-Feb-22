@@ -34,4 +34,11 @@ export const portfolioText = {
       </>
     ),
   },
+
+  archiveTensorFlow: {
+    title: "TensorFlow Professional Certification",
+    text: "Certification taught by X head of Google covering x,y,z",
+    link: "https://www.coursera.org/account/accomplishments/professional-cert/L964KTBHJJW6?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=prof",
+    skills: ["Python", "TensorFlow", "NLP", "Computer Vision"],
+  },
 };
