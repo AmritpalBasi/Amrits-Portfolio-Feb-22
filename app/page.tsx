@@ -6,6 +6,7 @@ import Banner from "@/components/Banner";
 import { motion } from "framer-motion";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
           {/* EXPERIENCE */}
           <Experience />
           {/* PROJECTS */}
+          <Projects />
           {/* ARCHIVE */}
           {/*  CONTACT */}
           {/*  FOOTER */}
