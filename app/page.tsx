@@ -27,7 +27,13 @@ export default function Home() {
         <div className="h-[88vh] w-full mx-auto p-4">
           <Banner />
           {/* ABOUT */}
-          <About />
+          <motion.div
+            initial={{ y: 10, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 1.5 }}
+          >
+            <About />
+          </motion.div>
           {/* EXPERIENCE */}
           <Experience />
           {/* PROJECTS */}
