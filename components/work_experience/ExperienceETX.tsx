@@ -11,7 +11,7 @@ const ExperienceG3NR8 = () => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-inter">
         Financial Data Scientist{" "}
-        <span className="text-textGreen tracking-wide">@G3NR8</span>
+        <span className="text-textGreen tracking-wide">@ETX Capital</span>
       </h3>
 
       <p className="text-sm mt-1 font-medium text-textDark">
