@@ -8,6 +8,7 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Archive from "@/components/Archive";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 1.5 }}
+          transition={{ delay: 1.7 }}
           className="hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0"
         >
           <LeftSide />
@@ -41,6 +42,7 @@ export default function Home() {
           {/* ARCHIVE */}
           <Archive />
           {/*  CONTACT */}
+          <Contact />
           {/*  FOOTER */}
         </div>
         {/* right hand side of screen */}
