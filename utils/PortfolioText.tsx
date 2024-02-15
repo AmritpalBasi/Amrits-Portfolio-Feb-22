@@ -47,6 +47,51 @@ export const portfolioText = {
     ),
   },
 
+  experienceG3NR8: {
+    point1:
+      "Developed novel techniques to extract purchasing behaviour from unstructured data using large language models such as GPT, Llama and Mixtral\n",
+    point2:
+      "Built web crawlers to extract additional data improving the output accuracy of current LLMs",
+    point3:
+      "Developed in house applications to anonymise confidential financial transcript data using named-entity recognition models\n",
+    point4:
+      "Fine tuned SDXL using Low Rank Adaptation to generate marketing material for clients",
+  },
+
+  experienceMilvikBIMA: {
+    point1:
+      "Built transaction models finding over £400,000 plus an additional £5,000 a month in unaccounted revenue",
+    point2:
+      "Integrated large language models such as LeMUR to transcribe and analyse outbound calls improving compliance",
+    point3:
+      "Maintained and optimised the code base for call centre operations, ensuring daily sales continue to operate",
+    point4:
+      "Developed and deployed deep neural networks on AWS to predict fraudulent sales minimising the risk of litigation",
+    point5:
+      "Implemented data pipelines to ensure local markets in Africa and Asia have access to one central source of truth",
+  },
+
+  experienceETX: {
+    point1:
+      "Built models to predict the probability of a customer depositing funds improving client management and sales resources",
+    point2:
+      "Establish processes to clean and maintain trading and customer data improving financial and legal reporting",
+    point3:
+      "Owned and improved the process to automate KPI reports for C-Suite and investors ensuring reliability",
+    point4:
+      "Redesigned day-to-day processes after a merger with a neo-bank and a transformation in business strategy",
+  },
+
+  experienceLeesman: {
+    point1:
+      "Researched and delivered comprehensive workplace strategy reports for a diverse clientele, including investment banks, pharmaceutical companies, and government entities.",
+    point2:
+      "Led innovation projects to improve reporting standards including new designs and visualisations",
+    point3:
+      "Manage teams of reporting analysts ensuring day-to-day reporting is completed",
+    point4: "",
+  },
+
   projectSkiGPT: {
     title: "SKI-GPT",
     text: (
