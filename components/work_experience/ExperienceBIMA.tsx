@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { TiArrowForward } from "react-icons/ti";
+import { portfolioText } from "@/utils/PortfolioText";
 
 const ExperienceG3NR8 = () => {
   return (
@@ -23,32 +24,35 @@ const ExperienceG3NR8 = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          {portfolioText.experienceMilvikBIMA.point1}
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          {portfolioText.experienceMilvikBIMA.point2}
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          {portfolioText.experienceMilvikBIMA.point3}
         </li>
 
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          {portfolioText.experienceMilvikBIMA.point4}
+        </li>
+
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          {portfolioText.experienceMilvikBIMA.point5}
         </li>
       </ul>
     </motion.div>
