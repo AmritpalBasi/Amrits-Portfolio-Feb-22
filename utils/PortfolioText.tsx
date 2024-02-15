@@ -139,8 +139,8 @@ export const portfolioText = {
       <>
         {" "}
         I'm currently looking for new opportunities so if your currently in the
-        process of building something{" "}
-        <span className="text-textGreen">awesome drop me a message!</span>{" "}
+        process of building something awesome{" "}
+        <span className="text-textGreen"> drop me a message!</span>{" "}
       </>
     ),
   },
