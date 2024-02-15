@@ -96,14 +96,16 @@ export const portfolioText = {
     title: "SKI-GPT",
     text: (
       <>
-        {" "}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam,{" "}
+        Built an application to recommend ski resorts based on user preferences
+        and budget restrictions. Integrated{" "}
         <span className="text-textGreen">
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat.
-        </span>
+          Open AI’s assistant for dynamic web browsing
+        </span>{" "}
+        to return real time pricing and availability, an algorithm was built
+        <span className="text-textGreen">
+          evaluate and rank lists of resorts
+        </span>{" "}
+        based on user input
       </>
     ),
   },
@@ -113,14 +115,14 @@ export const portfolioText = {
     text: (
       <>
         {" "}
-        {/* Node wrapper */}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam,{" "}
+        Developed an application to{" "}
         <span className="text-textGreen">
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat.
+          extract all images from a given shopify catalogue and perform
+          transformations in memory using open source computer vision models
         </span>
+        . Hosted the application on{" "}
+        <span className="text-textGreen">StreamLit</span> allowing luxury
+        clothing brands to readily create instagram ads
       </>
     ),
   },
