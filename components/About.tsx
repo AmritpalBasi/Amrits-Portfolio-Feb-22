@@ -12,6 +12,7 @@ import {
 } from "react-icons/si";
 import Image from "next/image";
 import { profilePic } from "@/public";
+import { portfolioText } from "@/utils/PortfolioText";
 
 const About = () => {
   return (
@@ -23,20 +24,7 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark  flex flex-col gap-4">
           {/* ABOUT */}
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.{" "}
-            <span className="text-textGreen">
-              Duis aute irure dolor in reprehenderit
-            </span>{" "}
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            <span className="text-textGreen">
-              officia deserunt mollit anim id est laborum.
-            </span>
-          </p>
+          <p>{portfolioText.aboutMe.text}</p>
           {/* TECHNOLOGIES */}
           <p>Here are a few technologies I have been working with recently</p>
           <ul className="max-w-[450px] text-sm font-inter grid grid-cols-2 gap-2 mt-6">
