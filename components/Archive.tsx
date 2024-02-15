@@ -30,10 +30,10 @@ const Archive = () => {
               transition={{ delay: 0.1 }}
             >
               <ArchiveCard
-                title="Show More"
-                description="Show More Description"
-                listItems={["1", "2", "3", "4"]}
-                link={"google.com"}
+                title="Whoops!"
+                description="I'm still adding projects to this website"
+                listItems={["coming", "soon", "(hopefully)"]}
+                link={"https://www.youtube.com/watch?v=-U48AAZo_Cw"}
               />
             </motion.div>
           </div>
