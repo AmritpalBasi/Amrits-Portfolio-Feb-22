@@ -25,6 +25,28 @@ export const portfolioText = {
     ),
   },
 
+  aboutMe: {
+    text: (
+      <>
+        I graduated from Physics at UCL and jumped straight into the world of
+        analytics. The first stage of my career had been a mix of technical &
+        soft skills.{" "}
+        <span className="text-textGreen">
+          Writing Python, SQL and using Tableau
+        </span>{" "}
+        or{" "}
+        <span className="text-textGreen">
+          working closely with account managers and clients
+        </span>
+        . From there I went down a more technical route to
+        <span className="text-textGreen"> data science</span> and{" "}
+        <span className="text-textGreen">machine learning</span> and now
+        exploring the world of{" "}
+        <span className="text-textGreen">front-end development</span>.
+      </>
+    ),
+  },
+
   projectSkiGPT: {
     title: "SKI-GPT",
     text: (
