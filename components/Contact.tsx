@@ -8,7 +8,7 @@ const Contact = () => {
       className="max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center"
     >
       <p className="font-inter text-lg text-textGreen font-semibold flex items-center tracking-wide">
-        04. What's Next
+        04. Up Next
       </p>
       <h2 className="font-inter text-5xl font-semibold">Get in Touch</h2>
       <p className="max-w-[600px] text-center text-textDark">
