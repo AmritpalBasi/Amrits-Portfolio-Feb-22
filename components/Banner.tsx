@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { socialLinks } from "@/utils/SocialLinks";
+import { portfolioText } from "@/utils/PortfolioText";
 
 const Banner = () => {
   return (
@@ -14,7 +15,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.6 }}
         className="text-lg font-inter text-textGreen tracking-wide"
       >
-        Hey, my name is
+        Hey!, my name is
       </motion.h3>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
@@ -33,10 +34,8 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo.{" "}
+        {portfolioText.bannerText.text}
+        <br></br>
         <a href={socialLinks.LinkedIn} target="_blank">
           {" "}
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
@@ -52,7 +51,7 @@ const Banner = () => {
           transition={{ duration: 0.5, delay: 0.9 }}
           className="w-52 h-14 text-sm font-inter border border-textGreen rounded-md text-textGreen tacking-wide hover:bg-hoverColor duration-300"
         >
-          Check out my projects!
+          Check out my projects
         </motion.button>
       </a>
     </section>
