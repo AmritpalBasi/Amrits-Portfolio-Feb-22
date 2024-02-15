@@ -16,7 +16,7 @@ const ExperienceG3NR8 = () => {
       </h3>
 
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jun 2022 - November
+        Jun 2022 - Nov 2023
       </p>
       {/* LIST EXPERIENCE */}
       <ul className="mt-6 flex flex-col gap-3">
