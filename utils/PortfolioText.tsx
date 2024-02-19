@@ -92,6 +92,22 @@ export const portfolioText = {
     point4: "",
   },
 
+  projectBlog: {
+    title: "My Blog",
+    text: (
+      <>
+        Built a blog which takes markdown files and converts them into articles.
+        The purpose is to go over{" "}
+        <span className="text-textGreen">
+          machine learning projects and papers breaking content down for
+          beginners.
+        </span>{" "}
+        Right now it includes a breakdown on Transformer architecture and how
+        self attention works.
+      </>
+    ),
+  },
+
   projectSkiGPT: {
     title: "SKI-GPT",
     text: (
