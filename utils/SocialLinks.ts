@@ -5,6 +5,7 @@ export type SocialLinksType = {
   Phone: string;
   Twitter: string;
   Instagram: string;
+  Blog: string;
 };
 
 export const socialLinks: SocialLinksType = {
@@ -14,4 +15,5 @@ export const socialLinks: SocialLinksType = {
   Phone: "+44 7376366990",
   Twitter: "https://twitter.com/Amrit_XL",
   Instagram: "https://www.instagram.com/amrit_basi/",
+  Blog: "https://www.amrits-blog.com",
 };
