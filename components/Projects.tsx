@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "@/components/SectionTitle";
 import Image from "next/image";
-import { SkiGPT, diamondGoose } from "@/public";
+import { SkiGPT, diamondGoose, amritsBlog } from "@/public";
 import { socialLinks } from "@/utils/SocialLinks";
 import {
   SiInstagram,
@@ -9,6 +9,7 @@ import {
   SiPython,
   SiShopify,
   SiStreamlit,
+  SiVercel,
 } from "react-icons/si";
 import { portfolioText } from "@/utils/PortfolioText";
 import { GiGoose } from "react-icons/gi";
@@ -23,14 +24,14 @@ const Projects = () => {
           {/* Project Image */}
           <div className="flex flex-col xl:flex-row gap-6">
             <a
-              href={socialLinks.Github}
+              href={socialLinks.Blog}
               target="_blank"
               className="w-full xl:w-1/2 h-auto relative group"
             >
               <div>
                 <Image
-                  src={SkiGPT}
-                  alt="SkiGPT"
+                  src={amritsBlog}
+                  alt="Amrits-Blog"
                   className="w-full h-full object-contain"
                 />
                 <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -42,18 +43,17 @@ const Projects = () => {
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">
-                {portfolioText.projectSkiGPT.title}
+                {portfolioText.projectBlog.title}
               </h3>
               {/* Project Description */}
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                {portfolioText.projectSkiGPT.text}
+                {portfolioText.projectBlog.text}
               </p>
               {/*  Skills List  */}
               <ul className="text-xs md:text-sm font-inter text-textDark tracking-wide flex gap-2 md:gap-5 justify-between">
                 <li>Python</li>
-                <li>StreamLit</li>
-                <li>Open-AI</li>
-                <li>Commissioned Project</li>
+                <li>Vercel</li>
+                <li>Machine Learning</li>
               </ul>
               {/*  ICONS  */}
               <div className="text-2xl flex gap-4">
@@ -65,18 +65,11 @@ const Projects = () => {
                   <SiPython />
                 </a>
                 <a
-                  href="https://streamlit.io/"
+                  href="https://vercel.com/"
                   target="_blank"
                   className="hover:text-textGreen duration-300"
                 >
-                  <SiStreamlit />
-                </a>
-                <a
-                  href="https://platform.openai.com/docs/assistants/how-it-works"
-                  target="_blank"
-                  className="hover:text-textGreen duration-300"
-                >
-                  <SiOpenai />
+                  <SiVercel />
                 </a>
               </div>
             </div>
@@ -161,6 +154,69 @@ const Projects = () => {
           </div>
         </div>
         {/*  Project three  */}
+        <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+          {/* Project Image */}
+          <div className="flex flex-col xl:flex-row gap-6">
+            <a
+              href={socialLinks.Github}
+              target="_blank"
+              className="w-full xl:w-1/2 h-auto relative group"
+            >
+              <div>
+                <Image
+                  src={SkiGPT}
+                  alt="SkiGPT"
+                  className="w-full h-full object-contain"
+                />
+                <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              </div>
+            </a>
+            {/* Project Title */}
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+              <p className="font-inter text-textGreen text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">
+                {portfolioText.projectSkiGPT.title}
+              </h3>
+              {/* Project Description */}
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+                {portfolioText.projectSkiGPT.text}
+              </p>
+              {/*  Skills List  */}
+              <ul className="text-xs md:text-sm font-inter text-textDark tracking-wide flex gap-2 md:gap-5 justify-between">
+                <li>Python</li>
+                <li>StreamLit</li>
+                <li>Open-AI</li>
+                <li>Commissioned Project</li>
+              </ul>
+              {/*  ICONS  */}
+              <div className="text-2xl flex gap-4">
+                <a
+                  href="https://www.python.org/"
+                  target="_blank"
+                  className="hover:text-textGreen duration-300"
+                >
+                  <SiPython />
+                </a>
+                <a
+                  href="https://streamlit.io/"
+                  target="_blank"
+                  className="hover:text-textGreen duration-300"
+                >
+                  <SiStreamlit />
+                </a>
+                <a
+                  href="https://platform.openai.com/docs/assistants/how-it-works"
+                  target="_blank"
+                  className="hover:text-textGreen duration-300"
+                >
+                  <SiOpenai />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
